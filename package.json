@@ -1,0 +1,13 @@
+{
+  "name": "surroundinsurance",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^4.5.0"
+  }
+}

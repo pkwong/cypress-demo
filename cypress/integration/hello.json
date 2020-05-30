@@ -1,0 +1,9 @@
+describe('Simple Test', function () {
+it('Simple Test', function () {
+cy.window().then((win) => {
+	win.sessionStorage.clear()})
+// Arrange
+cy.visit('https://example.cypress.io')
+cy.contains('type')
+})
+})
